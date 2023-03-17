@@ -36,11 +36,11 @@
           "name": "conventionalcommits",
           "types": [
             {
-              "type": "Feature",
+              "type": "feat",
               "section": "Features"
             },
             {
-              "type": "Hotfix",
+              "type": "fix",
               "section": "Bug Fixes"
             },
             {}
