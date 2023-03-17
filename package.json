@@ -8,8 +8,10 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "release": "release-it",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release:minor": "release-it --minor",
+    "release:patch": "release-it --patch",
+    "release": "release-it"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
@@ -21,7 +23,9 @@
   },
   "release-it": {
     "git": {
-      "commitMessage": "chore: release v${version}"
+      "commitMessage": "chore: release v${version}",
+      "requireUpstream": false,
+      "tagName": "v${version}"
     },
     "github": {
       "release": true
