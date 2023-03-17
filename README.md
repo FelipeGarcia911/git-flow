@@ -8,6 +8,8 @@ Git Flow Configuration Example
 - https://github.com/codityco/001-add-a-changelog-to-any-project
 
 ## Working Flow
+These are the suggested working flow
+
 # Feature/Fix Working Steps
 1. Create your feature(feat) or hotfix branch (fix) with develop as base branch (e.g: `git checkout develop && git checkout -b feat/my-feature-branch`)
 2. Work on your branch and commit your changes with a message (e.g: 'feat: update some files', 'fix: resolve conflicts')
