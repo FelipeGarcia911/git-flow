@@ -1,0 +1,39 @@
+{
+  "name": "git-flow",
+  "version": "1.0.0",
+  "description": "Git Flow Example",
+  "main": "index.js",
+  "repository": "https://github.com/FelipeGarcia911/git-flow.git",
+  "author": "Felipe García <arfgarciama@unal.edu.co>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "release": "release-it",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@release-it/conventional-changelog": "^5.1.1",
+    "commitlint": "^17.4.4",
+    "husky": "^8.0.3",
+    "release-it": "*"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}"
+    },
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": false
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "infile": "CHANGELOG.md",
+        "preset": "angular"
+      }
+    }
+  }
+}
