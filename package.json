@@ -1,6 +1,6 @@
 {
   "name": "git-flow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Git Flow Example",
   "main": "index.js",
   "repository": "https://github.com/FelipeGarcia911/git-flow.git",
