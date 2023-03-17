@@ -1,5 +1,18 @@
 
 
+## [1.4.0](https://github.com/FelipeGarcia911/git-flow/compare/1.2.0...1.4.0) (2023-03-17)
+
+
+### Features
+
+* add deployment steps ([1f18172](https://github.com/FelipeGarcia911/git-flow/commit/1f18172272c78ec5927e8ff235f2f4ac230f7530))
+
+
+### Bug Fixes
+
+* adding some details ([b536a78](https://github.com/FelipeGarcia911/git-flow/commit/b536a7815824f6cd911c8b9b8990e97036d94efe))
+* update release instructions ([d9392eb](https://github.com/FelipeGarcia911/git-flow/commit/d9392eba34afead3c97a868e71ac422861de82a6))
+
 ## [1.3.1](https://github.com/FelipeGarcia911/git-flow/compare/1.3.0...1.3.1) (2023-03-17)
 
 
