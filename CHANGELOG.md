@@ -1,5 +1,20 @@
 
 
+# [1.6.0](https://github.com/FelipeGarcia911/git-flow/compare/1.2.0...1.6.0) (2023-03-17)
+
+
+### Bug Fixes
+
+* add Readme.md ([5b1e9a2](https://github.com/FelipeGarcia911/git-flow/commit/5b1e9a28d0f040a8e0f48e31b269e8cffac14138))
+* adding some details ([b536a78](https://github.com/FelipeGarcia911/git-flow/commit/b536a7815824f6cd911c8b9b8990e97036d94efe))
+* preset type ([1bc103a](https://github.com/FelipeGarcia911/git-flow/commit/1bc103a7ccef298d7ddb1c75434fbca615043f12))
+* update release instructions ([047a7dd](https://github.com/FelipeGarcia911/git-flow/commit/047a7ddc0f17aa7e47adc6c1e244b13686b9a719))
+
+
+### Features
+
+* add deployment steps ([1f18172](https://github.com/FelipeGarcia911/git-flow/commit/1f18172272c78ec5927e8ff235f2f4ac230f7530))
+
 # [1.5.0](https://github.com/FelipeGarcia911/git-flow/compare/1.2.0...1.5.0) (2023-03-17)
 
 
