@@ -6,3 +6,6 @@ Git Flow Configuration Example
 
 # Add release notes
 - Some Release Notes
+
+# Add hotfix on staging
+- Some hotfix on staging
