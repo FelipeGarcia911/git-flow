@@ -1,5 +1,12 @@
 
 
+## [1.3.1](https://github.com/FelipeGarcia911/git-flow/compare/1.3.0...1.3.1) (2023-03-17)
+
+
+### Bug Fixes
+
+* adding some details ([9781060](https://github.com/FelipeGarcia911/git-flow/commit/978106031a21a2855c18f91b9f43485246accc32))
+
 ## [1.3.0](https://github.com/FelipeGarcia911/git-flow/compare/1.2.0...1.3.0) (2023-03-17)
 
 
