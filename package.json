@@ -9,8 +9,10 @@
   "private": false,
   "scripts": {
     "prepare": "husky install",
+    "release:changelog": "release-it --changelog",
     "release:minor": "release-it --minor",
     "release:patch": "release-it --patch",
+    "release:version": "release-it --release-version",
     "release": "release-it"
   },
   "devDependencies": {
