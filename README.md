@@ -17,26 +17,24 @@ These are the suggested working flow
 4. Merge your approved MR into develop
 
 # Create a Staging Release
-1. Go to develop branch and then create a release branch (e.g: `git checkout develop && git checkout -b release-v1.0.1`)
+1. Go to develop branch and then create a release branch (e.g: `git checkout develop && git checkout -b release-31-01-2023`)
 2. Start the release process with `yarn release` and follow the steps.
 3. Go to GitHub and create an MR from the release branch against staging and request some approvals
 4. Merge your approved MR into staging
 5. Rebase develop with the latest changes in staging
 
 # Create a Production Release - With NOT changes added after the last Staging Release
-1. Go to staging branch and then create a release branch (e.g: `git checkout staging && git checkout -b release-v1.0.1`)
-2. Start the release process with `yarn release` and follow the steps.
-3. DO NOT bump the release version or the tag version.
-4. Go to GitHub and create an MR from the release branch against production and request some approvals
-5. Merge your approved MR into production.
-6. Rebase staging with the latest changes in production
-7. Rebase develop with the latest changes in staging
+1. Go to the release branch created before (for the staging release)
+2. Go to GitHub and create an MR from the release branch against production and request some approvals
+3. Use `Rebase and Merge` strategy to add your approved MR into production.
+4. Rebase staging with the latest changes in production
+5. Rebase develop with the latest changes in staging
 
 # Create a Production Release - With changes added after the last Staging Release
-1. Go to staging branch and then create a release branch (e.g: `git checkout staging && git checkout -b release-v1.0.1`)
+1. Go to staging branch and then create a release branch (e.g: `git checkout staging && git checkout -b release-31-01-2023`)
 2. Start the release process with `yarn release` and follow the steps.
 3. Bump the release version and the tag version. (It's due to we added some fixes or features after the staging release)
 4. Go to GitHub and create an MR from the release branch against production and request some approvals
-5. Merge your approved MR into production.
+5. Use `Rebase and Merge` strategy to add your approved MR into production.
 6. Rebase staging with the latest changes in production.
 7. Rebase develop with the latest changes in staging.
