@@ -17,7 +17,7 @@
     "@release-it/conventional-changelog": "^5.1.1",
     "commitlint": "^17.4.4",
     "husky": "^8.0.3",
-    "release-it": "^15.9.0"
+    "release-it": "*"
   },
   "release-it": {
     "git": {
