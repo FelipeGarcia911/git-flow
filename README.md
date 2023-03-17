@@ -8,13 +8,13 @@ Git Flow Configuration Example
 - https://github.com/codityco/001-add-a-changelog-to-any-project
 
 ## Working Flow
-These are the suggested working flow
+These are the suggested working flows:
 
 # Feature/Fix Working Steps
 1. Create your feature(feat) or hotfix branch (fix) with develop as base branch (e.g: `git checkout develop && git checkout -b feat/my-feature-branch`)
 2. Work on your branch and commit your changes with a message (e.g: 'feat: update some files', 'fix: resolve conflicts')
 3. Create a MR/PR from your branch to develop and request some approvals
-4. Merge your approved MR into develop
+4. Merge your approved MR into develop using the `Rebase and Merge` strategy
 
 # Create a Staging Release
 1. Go to develop branch and then create a release branch (e.g: `git checkout develop && git checkout -b release-31-01-2023`)
